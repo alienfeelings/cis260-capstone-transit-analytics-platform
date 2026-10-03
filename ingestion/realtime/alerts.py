@@ -26,27 +26,32 @@ my_headers = {
     "x-api-key": API_KEY
 }
 
-response = requests.get(
-    url,
-    params=my_params,
-    headers=my_headers,
-    timeout=30
-)
+def collect_alerts():
+    response = requests.get(
+        url,
+        params=my_params,
+        headers=my_headers,
+        timeout=30
+    )
 
-response.raise_for_status()
-data = response.json()
+    response.raise_for_status()
+    data = response.json()
 
-# Create data/raw/alerts if it does not exist.
-output_folder = PROJECT_ROOT / "data" / "raw" / "alerts"
-output_folder.mkdir(parents=True, exist_ok=True)
+    # Create data/raw/alerts if it does not exist.
+    output_folder = PROJECT_ROOT / "data" / "raw" / "alerts"
+    output_folder.mkdir(parents=True, exist_ok=True)
 
-timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") # Windows does not allow colons.
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") # Windows does not allow colons.
 
-filename = output_folder / f"alerts_{timestamp}.json"
+    filename = output_folder / f"alerts_{timestamp}.json"
 
-with open(filename, "w", encoding="utf-8") as file:
-    json.dump(data, file, indent=2)
+    with open(filename, "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=2)
 
-print("Current working directory:", os.getcwd())
-print(f"Saved {filename}")
-print(f"Collected {len(data['data'])} alerts.")
+    print(f"Saved {filename}")
+    print(f"Collected {len(data['data'])} alert(s).")
+
+    return filename
+
+if __name__ == "__main__":
+    collect_alerts()
