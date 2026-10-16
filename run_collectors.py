@@ -1,35 +1,44 @@
-import time
-from datetime import datetime
+import logging
+from logging_config import setup_logging
 
 from ingestion.realtime.alerts import collect_alerts
 from ingestion.realtime.predictions import collect_predictions
 from ingestion.realtime.vehicles import collect_vehicles
 
-INTERVAL_SECONDS = 60
+logger = logging.getLogger(__name__)
 
 def run_collectors():
-    print()
-    print("=" * 60)
-    print(f"Collection started: {datetime.now()}")
-    print("=" * 60)
+    logger.info(
+        "========== MBTA collection run started =========="
+    )
+    logger.info(
+        "Starting vehicle collector."
+    )
+    try:
+        collect_vehicles()
+    except Exception:
+        logger.exception("Unexpected error in vehicle collector.")
 
-    collect_vehicles()
-    collect_predictions()
-    collect_alerts()
+    logger.info(
+        "Starting prediction collector."
+    )
+    try:
+        collect_predictions()
+    except Exception:
+        logger.exception("Unexpected error in predictions collector.")
 
-    print("Collection cycle complete.")
+    logger.info(
+        "Starting alert collector."
+    )
+    try:
+        collect_alerts()
+    except Exception:
+        logger.exception("Unexpected error in alerts collector.")
+
+    logger.info(
+        "========== MBTA collection run finished =========="
+    )
 
 if __name__ == "__main__":
-    try:
-        while True:
-            run_collectors()
-
-            print(
-                f"Waiting {INTERVAL_SECONDS} seconds before next collection..."
-            )
-
-            time.sleep(INTERVAL_SECONDS)
-
-    except KeyboardInterrupt:
-        print()
-        print("Collector stopped by user.")
+    setup_logging()
+    run_collectors()

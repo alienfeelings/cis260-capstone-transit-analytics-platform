@@ -1,9 +1,13 @@
 import json
 import os
+import logging
 from pathlib import Path
 from datetime import datetime
 import requests
 from dotenv import load_dotenv
+
+#Logging
+logger = logging.getLogger(__name__)
 
 # Project root:
 # ingestion/alerts.py -> parent = ingestion -> parent = project root
@@ -27,29 +31,49 @@ my_headers = {
 }
 
 def collect_alerts():
-    response = requests.get(
-        url,
-        params=my_params,
-        headers=my_headers,
-        timeout=30
-    )
+    try:
+        response = requests.get(
+            url,
+            params=my_params,
+            headers=my_headers,
+            timeout=30
+        )
 
-    response.raise_for_status()
-    data = response.json()
+        response.raise_for_status()
+        data = response.json()
 
-    # Create data/raw/alerts if it does not exist.
-    output_folder = PROJECT_ROOT / "data" / "raw" / "alerts"
-    output_folder.mkdir(parents=True, exist_ok=True)
+        logger.info("Alert API request successful.")
 
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") # Windows does not allow colons.
+        records = data.get("data", [])
 
-    filename = output_folder / f"alerts_{timestamp}.json"
+        logger.info("Alert API returned %d records.",
+                    len(records))
 
-    with open(filename, "w", encoding="utf-8") as file:
-        json.dump(data, file, indent=2)
+    except requests.RequestException as error:
+        logger.error("Alert API request failed: %s",
+             error
+         )
+        return
 
-    print(f"Saved {filename}")
-    print(f"Collected {len(data['data'])} alert(s).")
+    try:
+        # Create data/raw/alerts if it does not exist.
+        output_folder = PROJECT_ROOT / "data" / "raw" / "alerts"
+        output_folder.mkdir(parents=True, exist_ok=True)
+
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") # Windows does not allow colons.
+
+        filename = output_folder / f"alerts_{timestamp}.json"
+
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=2)
+
+        logger.info("Alert snapshot saved: %s",
+                    filename)
+
+    except OSError as error:
+        logger.error("Failed to save alert snapshot: %s",
+                     error)
+        return
 
     return filename
 

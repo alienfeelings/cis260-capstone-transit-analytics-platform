@@ -1,0 +1,167 @@
+2026-10-16 15:19:16,502 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:19:16,503 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:19:16,932 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:19:16,932 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:19:16,942 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-19-16.json
+2026-10-16 15:19:16,946 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:19:17,529 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:19:17,853 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:24:16,325 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:24:16,326 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:24:16,711 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:24:16,712 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:24:16,725 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-24-16.json
+2026-10-16 15:24:16,730 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:24:17,181 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:24:17,587 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:29:16,382 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:29:16,383 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:29:17,354 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:29:17,354 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:29:17,358 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-29-17.json
+2026-10-16 15:29:17,359 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:29:17,815 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:29:18,140 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:32:59,934 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:32:59,934 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:33:00,306 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:33:00,306 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:33:00,309 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-33-00.json
+2026-10-16 15:33:00,310 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:33:00,728 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:33:01,082 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:34:16,322 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:34:16,322 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:34:16,762 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:34:16,762 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:34:16,766 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-34-16.json
+2026-10-16 15:34:16,767 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:34:17,236 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:34:17,575 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:35:33,583 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:35:33,583 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:35:34,009 | INFO | ingestion.realtime.vehiclessss | Vehicle API request successful.
+2026-10-16 15:35:34,009 | INFO | ingestion.realtime.vehiclessss | Vehicle API returned 21 records.
+2026-10-16 15:35:34,013 | INFO | ingestion.realtime.vehiclessss | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-35-34.json
+2026-10-16 15:35:34,014 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:35:34,430 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:35:34,812 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:36:02,426 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:36:02,426 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:36:02,815 | ERROR | ingestion.realtime.vehicles | Vehicle API request failed: 404 Client Error: Not Found for url: https://api-v3.mbta.com/vehiclessss?filter%5Broute%5D=Red
+2026-10-16 15:36:02,816 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:36:03,258 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:36:03,601 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:39:16,359 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:39:16,359 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:39:17,369 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:39:17,369 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:39:17,373 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-39-17.json
+2026-10-16 15:39:17,375 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:39:17,816 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:39:18,144 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:40:09,284 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:40:09,284 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:40:09,633 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:40:09,633 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:40:09,637 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-40-09.json
+2026-10-16 15:40:09,639 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:40:10,049 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:40:10,397 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:44:16,415 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:44:16,416 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:44:16,792 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:44:16,793 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:44:16,796 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-44-16.json
+2026-10-16 15:44:16,797 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:44:17,309 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:44:17,718 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:45:38,097 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:45:38,097 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:45:38,495 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:45:38,495 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:45:38,498 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-45-38.json
+2026-10-16 15:45:38,499 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:45:38,909 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:45:39,273 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:46:56,625 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:46:56,625 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:46:57,194 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:46:57,194 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:46:57,197 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-46-57.json
+2026-10-16 15:46:57,198 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:46:57,651 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:46:58,056 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 15:49:16,391 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 15:49:16,391 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 15:49:16,799 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 15:49:16,799 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 15:49:16,802 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_15-49-16.json
+2026-10-16 15:49:16,803 | INFO | __main__ | Starting prediction collector.
+2026-10-16 15:49:17,231 | ERROR | __main__ | Unexpected error in predictions collector.
+Traceback (most recent call last):
+  File "C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\run_collectors.py", line 26, in run_collectors
+    collect_predictions()
+  File "C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\ingestion\realtime\predictions.py", line 47, in collect_predictions
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") # Windows does not allow colons.
+                ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+2026-10-16 15:49:17,235 | INFO | __main__ | Starting alert collector.
+2026-10-16 15:49:17,624 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 16:04:16,479 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 16:04:16,480 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 16:04:16,875 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 16:04:16,875 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 16:04:16,878 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_16-04-16.json
+2026-10-16 16:04:16,879 | INFO | __main__ | Starting prediction collector.
+2026-10-16 16:04:17,361 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-16 16:04:17,362 | INFO | ingestion.realtime.predictions | Prediction API returned 600 records.
+2026-10-16 16:04:17,362 | ERROR | __main__ | Unexpected error in predictions collector.
+Traceback (most recent call last):
+  File "C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\run_collectors.py", line 26, in run_collectors
+    collect_predictions()
+  File "C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\ingestion\realtime\predictions.py", line 63, in collect_predictions
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S") # Windows does not allow colons.
+                ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+2026-10-16 16:04:17,365 | INFO | __main__ | Starting alert collector.
+2026-10-16 16:04:17,704 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 16:09:16,467 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 16:09:16,467 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 16:09:16,886 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 16:09:16,886 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 16:09:16,889 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_16-09-16.json
+2026-10-16 16:09:16,891 | INFO | __main__ | Starting prediction collector.
+2026-10-16 16:09:17,502 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-16 16:09:17,502 | INFO | ingestion.realtime.predictions | Prediction API returned 593 records.
+2026-10-16 16:09:17,534 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-16_16-09-17.json
+2026-10-16 16:09:17,535 | INFO | __main__ | Starting alert collector.
+2026-10-16 16:09:17,879 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 16:12:45,349 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 16:12:45,349 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 16:12:45,790 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 16:12:45,790 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 16:12:45,793 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_16-12-45.json
+2026-10-16 16:12:45,794 | INFO | __main__ | Starting prediction collector.
+2026-10-16 16:12:46,232 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-16 16:12:46,232 | INFO | ingestion.realtime.predictions | Prediction API returned 588 records.
+2026-10-16 16:12:46,268 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-16_16-12-46.json
+2026-10-16 16:12:46,270 | INFO | __main__ | Starting alert collector.
+2026-10-16 16:12:46,606 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-16 16:12:46,607 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
+2026-10-16 16:12:46,608 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-16_16-12-46.json
+2026-10-16 16:12:46,609 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-16 16:14:16,657 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-16 16:14:16,658 | INFO | __main__ | Starting vehicle collector.
+2026-10-16 16:14:17,079 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-16 16:14:17,080 | INFO | ingestion.realtime.vehicles | Vehicle API returned 21 records.
+2026-10-16 16:14:17,086 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-16_16-14-17.json
+2026-10-16 16:14:17,088 | INFO | __main__ | Starting prediction collector.
+2026-10-16 16:14:17,595 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-16 16:14:17,596 | INFO | ingestion.realtime.predictions | Prediction API returned 586 records.
+2026-10-16 16:14:17,632 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-16_16-14-17.json
+2026-10-16 16:14:17,634 | INFO | __main__ | Starting alert collector.
+2026-10-16 16:14:18,015 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-16 16:14:18,016 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
+2026-10-16 16:14:18,018 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-16_16-14-18.json
+2026-10-16 16:14:18,019 | INFO | __main__ | ========== MBTA collection run finished ==========
