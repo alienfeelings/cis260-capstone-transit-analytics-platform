@@ -24,9 +24,14 @@ def delivery_report(error, message):
         message.partition()
     )
 
-def send_vehicle(vehicle):
+def send_vehicle(vehicle, collected_at):
 
-    message = json.dumps(vehicle)
+    message = json.dumps(
+        {
+            "collected_at": collected_at.isoformat(),
+            "vehicle": vehicle
+        }
+    )
 
     logger.info(
         "Sending vehicle %s to Kafka.",
