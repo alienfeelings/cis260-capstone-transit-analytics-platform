@@ -44,14 +44,13 @@ def send_vehicle(vehicle):
 def flush_producer():
 
     logger.info("Flushing remaining Kafka messages.")
-    producer.flush()
 
-if __name__ == "__main__":
+    remaining_messages = producer.flush(timeout=10)
 
-    test_vehicle = {
-        "id": "test-vehicle-1",
-        "route_id": "Red",
-        "speed": 25
-    }
-    send_vehicle(test_vehicle)
-    flush_producer()
+    if remaining_messages == 0:
+        logger.info("Kafka producer flush completed successfully")
+    else:
+        logger.warning("%d Kafka message(s) were not delivered before timeout.",
+                       remaining_messages
+        )
+    return remaining_messages
