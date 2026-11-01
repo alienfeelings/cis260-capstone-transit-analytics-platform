@@ -2,9 +2,10 @@ import json
 import os
 import logging
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 import requests
 from dotenv import load_dotenv
+from streaming.producer import send_vehicle, flush_producer
 
 # Logging
 logger = logging.getLogger(__name__)
@@ -31,6 +32,9 @@ my_headers = {
 }
 
 def collect_vehicles():
+    # ==============================
+    # API try/except.
+    # ==============================
     try:
         response = requests.get(
             url,
@@ -41,6 +45,7 @@ def collect_vehicles():
 
         response.raise_for_status()
         data = response.json()
+        collected_at = datetime.now(timezone.utc)
 
         logger.info("Vehicle API request successful.")
 
@@ -55,6 +60,9 @@ def collect_vehicles():
         )
         return
 
+    # ==============================
+    # File writing try/except.
+    # ==============================
     try:
         # Create data/raw/"" if it does not exist.
         output_folder = PROJECT_ROOT / "data" / "raw" / "vehicles"
@@ -74,7 +82,31 @@ def collect_vehicles():
         logger.error("Failed to save vehicle snapshot: %s",
                      error)
         return
+    #==============================
+    # Send vehicle records to Kafka.
+    # ==============================
+    try:
+        logger.info("Publishing %d vehicle records to Kafka.",
+                    len(records)
+        )
 
+        for vehicle in records:
+            send_vehicle(vehicle, collected_at)
+
+        remaining_messages = flush_producer()
+
+        if remaining_messages == 0:
+            logger.info("Published %d vehicle records to Kafka successfully.",
+                        len(records)
+            )
+    except Exception:
+        logger.exception(
+            "Unexpected error while publishing vehicles to Kafka."
+        )
+
+    # ==============================
+    # Return filename
+    # ==============================
     return filename
 
 if __name__ == "__main__":

@@ -29,7 +29,7 @@ DB_PASSWORD = os.getenv("POSTGRES_PASSWORD")
 
 KAFKA_CONFIG = {
     # Same Kafka broker your producer uses.
-    "bootstrap.servers": "localhost:9092",
+    "bootstrap.servers": "127.0.0.1:9092",
 
     # Kafka consumers belong to consumer groups.
     "group.id": "mbta-vehicle-consumer",

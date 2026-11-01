@@ -66,7 +66,7 @@ def create_schema():
 
     except Exception:
         connection.rollback()
-        print("\nSchema creation failed. Changed rolled back.")
+        print("\nSchema creation failed. Changes rolled back.")
         raise
 
     finally:

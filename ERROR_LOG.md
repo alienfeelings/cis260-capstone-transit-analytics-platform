@@ -123,3 +123,27 @@ Because .get() can take a default value:\
 dictionary.get("key", default_value)\
 attributes = vehicle.get("attributes", {}) --> means:\
 Get "attributes". If it doesn't exist, give me an empty dictionary instead.
+
+Kafka Setup
+===
+> KAFKA PRODUCER
+  - Download Apache Kafka
+  - Make sure -> Java 17+
+  - Initialize Kafka - Generate Kafka cluster ID
+  - Format KRaft storage
+  - Start Kafka broker
+  - Create & verify Kafka topic
+  - Install Python Kafka client - confluent-kafka
+  - (The consumer at times appears to sit there doing nothing. 
+    That's normal — it's waiting for new Kafka messages.)
+  - Create Python producer script
+  - Import Kafka producer script into ingestion file
+
+
+  - Don't just repeatedly close the PyCharm process window if you can avoid it;\
+using Ctrl+C gives consumer.close() a chance to run properly.
+  - Start up Kafka broker on command line before running anything on IDE:
+    - "KAFKA_DIRECTORY"
+    - $env:KAFKA_HEAP_OPTS="-Xmx1G -Xms1G"
+    - .\bin\windows\kafka-server-start.bat config\server.properties
+    - Then test connection with: Test-NetConnection 127.0.0.1 -Port 9092

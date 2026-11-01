@@ -2,9 +2,14 @@ import json
 import os
 import logging
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 import requests
 from dotenv import load_dotenv
+
+from streaming.producer import (
+    send_prediction,
+    flush_producer
+)
 
 # Logging
 logger = logging.getLogger(__name__)
@@ -42,6 +47,8 @@ def collect_predictions():
         response.raise_for_status()
         data = response.json()
 
+        collected_at = datetime.now(timezone.utc)
+
         logger.info("Prediction API request successful.")
 
         records = data.get("data", [])
@@ -74,6 +81,30 @@ def collect_predictions():
         logger.error("Failed to save prediction snapshot: %s",
                      error)
         return
+
+    try:
+        logger.info(
+            "Publishing %d prediction records to Kafka.",
+            len(records)
+        )
+
+        for prediction in records:
+            send_prediction(
+                prediction,
+                collected_at
+            )
+
+        remaining_messages = flush_producer()
+
+        if remaining_messages == 0:
+            logger.info(
+                "Published %d prediction records to Kafka successfully.",
+                len(records)
+            )
+    except Exception:
+        logger.exception(
+            "Unexpected error while publishing predictions to Kafka."
+        )
 
     return filename
 

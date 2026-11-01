@@ -3663,3 +3663,1250 @@ NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
 2026-10-20 10:34:17,598 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
 2026-10-20 10:34:17,600 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-20_10-34-17.json
 2026-10-20 10:34:17,601 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-22 11:37:42,820 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-22 11:37:42,820 | INFO | __main__ | Starting vehicle collector.
+2026-10-22 11:37:43,213 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-22 11:37:43,213 | INFO | ingestion.realtime.vehicles | Vehicle API returned 20 records.
+2026-10-22 11:37:43,218 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-22_11-37-43.json
+2026-10-22 11:37:43,218 | INFO | ingestion.realtime.vehicles | Publishing 20 vehicle records to Kafka.
+2026-10-22 11:37:43,218 | INFO | streaming.producer | Sending vehicle R-548C58EE to Kafka.
+2026-10-22 11:37:43,218 | INFO | streaming.producer | Sending vehicle R-548C58CF to Kafka.
+2026-10-22 11:37:43,218 | INFO | streaming.producer | Sending vehicle R-548C5861 to Kafka.
+2026-10-22 11:37:43,218 | INFO | streaming.producer | Sending vehicle R-548C578A to Kafka.
+2026-10-22 11:37:43,218 | INFO | streaming.producer | Sending vehicle R-548C5763 to Kafka.
+2026-10-22 11:37:43,218 | INFO | streaming.producer | Sending vehicle R-548C5758 to Kafka.
+2026-10-22 11:37:43,218 | INFO | streaming.producer | Sending vehicle R-548C574E to Kafka.
+2026-10-22 11:37:43,218 | INFO | streaming.producer | Sending vehicle R-548C574A to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C572D to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C572B to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C54B8 to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C5214 to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C50C3 to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C5049 to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C4CCC to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C4CA1 to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C49B5 to Kafka.
+2026-10-22 11:37:43,219 | INFO | streaming.producer | Sending vehicle R-548C4798 to Kafka.
+2026-10-22 11:37:43,220 | INFO | streaming.producer | Sending vehicle R-548C46EC to Kafka.
+2026-10-22 11:37:43,220 | INFO | streaming.producer | Sending vehicle R-548C223D to Kafka.
+2026-10-22 11:37:43,220 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-22 11:37:43,223 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,223 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,223 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,223 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,223 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,223 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,223 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,223 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 11:37:43,224 | INFO | streaming.producer | Kafka producer flush completed successfully
+2026-10-22 11:37:43,224 | INFO | ingestion.realtime.vehicles | Published 20 vehicle records to Kafka successfully.
+2026-10-22 11:37:43,225 | INFO | __main__ | Starting prediction collector.
+2026-10-22 11:37:43,629 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-22 11:37:43,629 | INFO | ingestion.realtime.predictions | Prediction API returned 542 records.
+2026-10-22 11:37:43,675 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-22_11-37-43.json
+2026-10-22 11:37:43,677 | INFO | __main__ | Starting alert collector.
+2026-10-22 11:37:44,147 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-22 11:37:44,147 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
+2026-10-22 11:37:44,149 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-22_11-37-44.json
+2026-10-22 11:37:44,151 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-22 18:26:04,591 | INFO | __main__ | Subscribed to Kafka topic: mbta-vehicles
+2026-10-22 18:26:07,776 | INFO | __main__ | Received vehicle test-vehicle-1 from Kafka.
+2026-10-22 18:26:07,794 | INFO | __main__ | Committed Kafka offset 0 for partition 0.
+2026-10-22 18:26:07,794 | INFO | __main__ | Received vehicle test-vehicle-1 from Kafka.
+2026-10-22 18:26:07,796 | INFO | __main__ | Committed Kafka offset 1 for partition 0.
+2026-10-22 18:26:07,796 | INFO | __main__ | Received vehicle R-548C58EE from Kafka.
+2026-10-22 18:26:07,797 | INFO | __main__ | Committed Kafka offset 2 for partition 0.
+2026-10-22 18:26:07,797 | INFO | __main__ | Received vehicle R-548C58CF from Kafka.
+2026-10-22 18:26:07,798 | INFO | __main__ | Committed Kafka offset 3 for partition 0.
+2026-10-22 18:26:07,798 | INFO | __main__ | Received vehicle R-548C5861 from Kafka.
+2026-10-22 18:26:07,798 | INFO | __main__ | Committed Kafka offset 4 for partition 0.
+2026-10-22 18:26:07,798 | INFO | __main__ | Received vehicle R-548C578A from Kafka.
+2026-10-22 18:26:07,800 | INFO | __main__ | Committed Kafka offset 5 for partition 0.
+2026-10-22 18:26:07,800 | INFO | __main__ | Received vehicle R-548C5763 from Kafka.
+2026-10-22 18:26:07,801 | INFO | __main__ | Committed Kafka offset 6 for partition 0.
+2026-10-22 18:26:07,801 | INFO | __main__ | Received vehicle R-548C5758 from Kafka.
+2026-10-22 18:26:07,802 | INFO | __main__ | Committed Kafka offset 7 for partition 0.
+2026-10-22 18:26:07,802 | INFO | __main__ | Received vehicle R-548C574E from Kafka.
+2026-10-22 18:26:07,803 | INFO | __main__ | Committed Kafka offset 8 for partition 0.
+2026-10-22 18:26:07,803 | INFO | __main__ | Received vehicle R-548C574A from Kafka.
+2026-10-22 18:26:07,805 | INFO | __main__ | Committed Kafka offset 9 for partition 0.
+2026-10-22 18:26:07,805 | INFO | __main__ | Received vehicle R-548C572D from Kafka.
+2026-10-22 18:26:07,806 | INFO | __main__ | Committed Kafka offset 10 for partition 0.
+2026-10-22 18:26:07,806 | INFO | __main__ | Received vehicle R-548C572B from Kafka.
+2026-10-22 18:26:07,807 | INFO | __main__ | Committed Kafka offset 11 for partition 0.
+2026-10-22 18:26:07,807 | INFO | __main__ | Received vehicle R-548C54B8 from Kafka.
+2026-10-22 18:26:07,808 | INFO | __main__ | Committed Kafka offset 12 for partition 0.
+2026-10-22 18:26:07,808 | INFO | __main__ | Received vehicle R-548C5214 from Kafka.
+2026-10-22 18:26:07,809 | INFO | __main__ | Committed Kafka offset 13 for partition 0.
+2026-10-22 18:26:07,809 | INFO | __main__ | Received vehicle R-548C50C3 from Kafka.
+2026-10-22 18:26:07,809 | INFO | __main__ | Committed Kafka offset 14 for partition 0.
+2026-10-22 18:26:07,810 | INFO | __main__ | Received vehicle R-548C5049 from Kafka.
+2026-10-22 18:26:07,810 | INFO | __main__ | Committed Kafka offset 15 for partition 0.
+2026-10-22 18:26:07,810 | INFO | __main__ | Received vehicle R-548C4CCC from Kafka.
+2026-10-22 18:26:07,811 | INFO | __main__ | Committed Kafka offset 16 for partition 0.
+2026-10-22 18:26:07,811 | INFO | __main__ | Received vehicle R-548C4CA1 from Kafka.
+2026-10-22 18:26:07,812 | INFO | __main__ | Committed Kafka offset 17 for partition 0.
+2026-10-22 18:26:07,812 | INFO | __main__ | Received vehicle R-548C49B5 from Kafka.
+2026-10-22 18:26:07,813 | INFO | __main__ | Committed Kafka offset 18 for partition 0.
+2026-10-22 18:26:07,813 | INFO | __main__ | Received vehicle R-548C4798 from Kafka.
+2026-10-22 18:26:07,813 | INFO | __main__ | Committed Kafka offset 19 for partition 0.
+2026-10-22 18:26:07,813 | INFO | __main__ | Received vehicle R-548C46EC from Kafka.
+2026-10-22 18:26:07,814 | INFO | __main__ | Committed Kafka offset 20 for partition 0.
+2026-10-22 18:26:07,814 | INFO | __main__ | Received vehicle R-548C223D from Kafka.
+2026-10-22 18:26:07,816 | INFO | __main__ | Committed Kafka offset 21 for partition 0.
+2026-10-22 18:27:10,580 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-22 18:27:10,580 | INFO | __main__ | Starting vehicle collector.
+2026-10-22 18:27:11,602 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-22 18:27:11,603 | INFO | ingestion.realtime.vehicles | Vehicle API returned 22 records.
+2026-10-22 18:27:11,608 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-22_18-27-11.json
+2026-10-22 18:27:11,608 | INFO | ingestion.realtime.vehicles | Publishing 22 vehicle records to Kafka.
+2026-10-22 18:27:11,608 | INFO | streaming.producer | Sending vehicle R-548C5979 to Kafka.
+2026-10-22 18:27:11,608 | INFO | streaming.producer | Sending vehicle R-548C58CF to Kafka.
+2026-10-22 18:27:11,609 | INFO | streaming.producer | Sending vehicle R-548C5861 to Kafka.
+2026-10-22 18:27:11,609 | INFO | streaming.producer | Sending vehicle R-548C578A to Kafka.
+2026-10-22 18:27:11,609 | INFO | streaming.producer | Sending vehicle R-548C5763 to Kafka.
+2026-10-22 18:27:11,609 | INFO | streaming.producer | Sending vehicle R-548C5758 to Kafka.
+2026-10-22 18:27:11,609 | INFO | streaming.producer | Sending vehicle R-548C574E to Kafka.
+2026-10-22 18:27:11,609 | INFO | streaming.producer | Sending vehicle R-548C574A to Kafka.
+2026-10-22 18:27:11,609 | INFO | streaming.producer | Sending vehicle R-548C572D to Kafka.
+2026-10-22 18:27:11,609 | INFO | streaming.producer | Sending vehicle R-548C572B to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C54B8 to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C5214 to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C50C3 to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C5049 to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C4E4C to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C4CCC to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C4CA1 to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C49B5 to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C4798 to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C46EC to Kafka.
+2026-10-22 18:27:11,610 | INFO | streaming.producer | Sending vehicle R-548C3AA5 to Kafka.
+2026-10-22 18:27:11,611 | INFO | streaming.producer | Sending vehicle R-548C223D to Kafka.
+2026-10-22 18:27:11,611 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | __main__ | Received vehicle R-548C5979 from Kafka.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:27:11,615 | INFO | streaming.producer | Kafka producer flush completed successfully
+2026-10-22 18:27:11,615 | INFO | ingestion.realtime.vehicles | Published 22 vehicle records to Kafka successfully.
+2026-10-22 18:27:11,616 | INFO | __main__ | Committed Kafka offset 22 for partition 0.
+2026-10-22 18:27:11,617 | INFO | __main__ | Received vehicle R-548C58CF from Kafka.
+2026-10-22 18:27:11,617 | INFO | __main__ | Starting prediction collector.
+2026-10-22 18:27:11,618 | INFO | __main__ | Committed Kafka offset 23 for partition 0.
+2026-10-22 18:27:11,618 | INFO | __main__ | Received vehicle R-548C5861 from Kafka.
+2026-10-22 18:27:11,619 | INFO | __main__ | Committed Kafka offset 24 for partition 0.
+2026-10-22 18:27:11,619 | INFO | __main__ | Received vehicle R-548C578A from Kafka.
+2026-10-22 18:27:11,620 | INFO | __main__ | Committed Kafka offset 25 for partition 0.
+2026-10-22 18:27:11,621 | INFO | __main__ | Received vehicle R-548C5763 from Kafka.
+2026-10-22 18:27:11,621 | INFO | __main__ | Committed Kafka offset 26 for partition 0.
+2026-10-22 18:27:11,622 | INFO | __main__ | Received vehicle R-548C5758 from Kafka.
+2026-10-22 18:27:11,622 | INFO | __main__ | Committed Kafka offset 27 for partition 0.
+2026-10-22 18:27:11,623 | INFO | __main__ | Received vehicle R-548C574E from Kafka.
+2026-10-22 18:27:11,623 | INFO | __main__ | Committed Kafka offset 28 for partition 0.
+2026-10-22 18:27:11,624 | INFO | __main__ | Received vehicle R-548C574A from Kafka.
+2026-10-22 18:27:11,624 | INFO | __main__ | Committed Kafka offset 29 for partition 0.
+2026-10-22 18:27:11,624 | INFO | __main__ | Received vehicle R-548C572D from Kafka.
+2026-10-22 18:27:11,625 | INFO | __main__ | Committed Kafka offset 30 for partition 0.
+2026-10-22 18:27:11,625 | INFO | __main__ | Received vehicle R-548C572B from Kafka.
+2026-10-22 18:27:11,626 | INFO | __main__ | Committed Kafka offset 31 for partition 0.
+2026-10-22 18:27:11,626 | INFO | __main__ | Received vehicle R-548C54B8 from Kafka.
+2026-10-22 18:27:11,627 | INFO | __main__ | Committed Kafka offset 32 for partition 0.
+2026-10-22 18:27:11,627 | INFO | __main__ | Received vehicle R-548C5214 from Kafka.
+2026-10-22 18:27:11,627 | INFO | __main__ | Committed Kafka offset 33 for partition 0.
+2026-10-22 18:27:11,627 | INFO | __main__ | Received vehicle R-548C50C3 from Kafka.
+2026-10-22 18:27:11,628 | INFO | __main__ | Committed Kafka offset 34 for partition 0.
+2026-10-22 18:27:11,628 | INFO | __main__ | Received vehicle R-548C5049 from Kafka.
+2026-10-22 18:27:11,629 | INFO | __main__ | Committed Kafka offset 35 for partition 0.
+2026-10-22 18:27:11,629 | INFO | __main__ | Received vehicle R-548C4E4C from Kafka.
+2026-10-22 18:27:11,629 | INFO | __main__ | Committed Kafka offset 36 for partition 0.
+2026-10-22 18:27:11,630 | INFO | __main__ | Received vehicle R-548C4CCC from Kafka.
+2026-10-22 18:27:11,630 | INFO | __main__ | Committed Kafka offset 37 for partition 0.
+2026-10-22 18:27:11,630 | INFO | __main__ | Received vehicle R-548C4CA1 from Kafka.
+2026-10-22 18:27:11,631 | INFO | __main__ | Committed Kafka offset 38 for partition 0.
+2026-10-22 18:27:11,631 | INFO | __main__ | Received vehicle R-548C49B5 from Kafka.
+2026-10-22 18:27:11,632 | INFO | __main__ | Committed Kafka offset 39 for partition 0.
+2026-10-22 18:27:11,632 | INFO | __main__ | Received vehicle R-548C4798 from Kafka.
+2026-10-22 18:27:11,632 | INFO | __main__ | Committed Kafka offset 40 for partition 0.
+2026-10-22 18:27:11,632 | INFO | __main__ | Received vehicle R-548C46EC from Kafka.
+2026-10-22 18:27:11,633 | INFO | __main__ | Committed Kafka offset 41 for partition 0.
+2026-10-22 18:27:11,633 | INFO | __main__ | Received vehicle R-548C3AA5 from Kafka.
+2026-10-22 18:27:11,634 | INFO | __main__ | Committed Kafka offset 42 for partition 0.
+2026-10-22 18:27:11,634 | INFO | __main__ | Received vehicle R-548C223D from Kafka.
+2026-10-22 18:27:11,634 | INFO | __main__ | Committed Kafka offset 43 for partition 0.
+2026-10-22 18:27:12,018 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-22 18:27:12,018 | INFO | ingestion.realtime.predictions | Prediction API returned 538 records.
+2026-10-22 18:27:12,054 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-22_18-27-12.json
+2026-10-22 18:27:12,056 | INFO | __main__ | Starting alert collector.
+2026-10-22 18:27:12,435 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-22 18:27:12,435 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
+2026-10-22 18:27:12,442 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-22_18-27-12.json
+2026-10-22 18:27:12,446 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-22 18:32:42,800 | INFO | __main__ | Kafka consumer stopped by user.
+2026-10-22 18:32:42,800 | INFO | __main__ | Closing Kafka consumer.
+2026-10-22 18:32:48,295 | INFO | __main__ | Subscribed to Kafka topic: mbta-vehicles
+2026-10-22 18:33:30,058 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-22 18:33:30,058 | INFO | __main__ | Starting vehicle collector.
+2026-10-22 18:33:30,474 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-22 18:33:30,474 | INFO | ingestion.realtime.vehicles | Vehicle API returned 22 records.
+2026-10-22 18:33:30,477 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-22_18-33-30.json
+2026-10-22 18:33:30,478 | INFO | ingestion.realtime.vehicles | Publishing 22 vehicle records to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C5979 to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C58CF to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C5861 to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C578A to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C5763 to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C5758 to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C574E to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C574A to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C572D to Kafka.
+2026-10-22 18:33:30,478 | INFO | streaming.producer | Sending vehicle R-548C572B to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C54B8 to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C5214 to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C50C3 to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C5049 to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C4E4C to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C4CCC to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C4CA1 to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C49B5 to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C4798 to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C46EC to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C3AA5 to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Sending vehicle R-548C223D to Kafka.
+2026-10-22 18:33:30,479 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-22 18:33:30,497 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,497 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,497 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,498 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,499 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 18:33:30,499 | INFO | streaming.producer | Kafka producer flush completed successfully
+2026-10-22 18:33:30,499 | INFO | ingestion.realtime.vehicles | Published 22 vehicle records to Kafka successfully.
+2026-10-22 18:33:30,500 | INFO | __main__ | Starting prediction collector.
+2026-10-22 18:33:30,501 | INFO | __main__ | Received vehicle R-548C5979 from Kafka.
+2026-10-22 18:33:30,510 | INFO | __main__ | Committed Kafka offset 44 for partition 0.
+2026-10-22 18:33:30,510 | INFO | __main__ | Received vehicle R-548C58CF from Kafka.
+2026-10-22 18:33:30,511 | INFO | __main__ | Committed Kafka offset 45 for partition 0.
+2026-10-22 18:33:30,511 | INFO | __main__ | Received vehicle R-548C5861 from Kafka.
+2026-10-22 18:33:30,513 | INFO | __main__ | Committed Kafka offset 46 for partition 0.
+2026-10-22 18:33:30,513 | INFO | __main__ | Received vehicle R-548C578A from Kafka.
+2026-10-22 18:33:30,514 | INFO | __main__ | Committed Kafka offset 47 for partition 0.
+2026-10-22 18:33:30,514 | INFO | __main__ | Received vehicle R-548C5763 from Kafka.
+2026-10-22 18:33:30,515 | INFO | __main__ | Committed Kafka offset 48 for partition 0.
+2026-10-22 18:33:30,515 | INFO | __main__ | Received vehicle R-548C5758 from Kafka.
+2026-10-22 18:33:30,516 | INFO | __main__ | Committed Kafka offset 49 for partition 0.
+2026-10-22 18:33:30,516 | INFO | __main__ | Received vehicle R-548C574E from Kafka.
+2026-10-22 18:33:30,517 | INFO | __main__ | Committed Kafka offset 50 for partition 0.
+2026-10-22 18:33:30,517 | INFO | __main__ | Received vehicle R-548C574A from Kafka.
+2026-10-22 18:33:30,518 | INFO | __main__ | Committed Kafka offset 51 for partition 0.
+2026-10-22 18:33:30,518 | INFO | __main__ | Received vehicle R-548C572D from Kafka.
+2026-10-22 18:33:30,519 | INFO | __main__ | Committed Kafka offset 52 for partition 0.
+2026-10-22 18:33:30,519 | INFO | __main__ | Received vehicle R-548C572B from Kafka.
+2026-10-22 18:33:30,520 | INFO | __main__ | Committed Kafka offset 53 for partition 0.
+2026-10-22 18:33:30,520 | INFO | __main__ | Received vehicle R-548C54B8 from Kafka.
+2026-10-22 18:33:30,521 | INFO | __main__ | Committed Kafka offset 54 for partition 0.
+2026-10-22 18:33:30,521 | INFO | __main__ | Received vehicle R-548C5214 from Kafka.
+2026-10-22 18:33:30,522 | INFO | __main__ | Committed Kafka offset 55 for partition 0.
+2026-10-22 18:33:30,522 | INFO | __main__ | Received vehicle R-548C50C3 from Kafka.
+2026-10-22 18:33:30,523 | INFO | __main__ | Committed Kafka offset 56 for partition 0.
+2026-10-22 18:33:30,523 | INFO | __main__ | Received vehicle R-548C5049 from Kafka.
+2026-10-22 18:33:30,525 | INFO | __main__ | Committed Kafka offset 57 for partition 0.
+2026-10-22 18:33:30,525 | INFO | __main__ | Received vehicle R-548C4E4C from Kafka.
+2026-10-22 18:33:30,526 | INFO | __main__ | Committed Kafka offset 58 for partition 0.
+2026-10-22 18:33:30,526 | INFO | __main__ | Received vehicle R-548C4CCC from Kafka.
+2026-10-22 18:33:30,527 | INFO | __main__ | Committed Kafka offset 59 for partition 0.
+2026-10-22 18:33:30,528 | INFO | __main__ | Received vehicle R-548C4CA1 from Kafka.
+2026-10-22 18:33:30,529 | INFO | __main__ | Committed Kafka offset 60 for partition 0.
+2026-10-22 18:33:30,529 | INFO | __main__ | Received vehicle R-548C49B5 from Kafka.
+2026-10-22 18:33:30,530 | INFO | __main__ | Committed Kafka offset 61 for partition 0.
+2026-10-22 18:33:30,530 | INFO | __main__ | Received vehicle R-548C4798 from Kafka.
+2026-10-22 18:33:30,531 | INFO | __main__ | Committed Kafka offset 62 for partition 0.
+2026-10-22 18:33:30,531 | INFO | __main__ | Received vehicle R-548C46EC from Kafka.
+2026-10-22 18:33:30,532 | INFO | __main__ | Committed Kafka offset 63 for partition 0.
+2026-10-22 18:33:30,532 | INFO | __main__ | Received vehicle R-548C3AA5 from Kafka.
+2026-10-22 18:33:30,533 | INFO | __main__ | Committed Kafka offset 64 for partition 0.
+2026-10-22 18:33:30,533 | INFO | __main__ | Received vehicle R-548C223D from Kafka.
+2026-10-22 18:33:30,534 | INFO | __main__ | Committed Kafka offset 65 for partition 0.
+2026-10-22 18:33:31,069 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-22 18:33:31,069 | INFO | ingestion.realtime.predictions | Prediction API returned 536 records.
+2026-10-22 18:33:31,101 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-22_18-33-31.json
+2026-10-22 18:33:31,103 | INFO | __main__ | Starting alert collector.
+2026-10-22 18:33:31,463 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-22 18:33:31,463 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
+2026-10-22 18:33:31,471 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-22_18-33-31.json
+2026-10-22 18:33:31,475 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-22 18:34:16,480 | INFO | __main__ | Kafka consumer stopped by user.
+2026-10-22 18:34:16,480 | INFO | __main__ | Closing Kafka consumer.
+2026-10-22 22:52:19,878 | INFO | __main__ | Subscribed to Kafka topic: mbta-vehicles
+2026-10-22 22:52:19,943 | INFO | __main__ | Connected to PostgreSQL for Kafka vehicle ingestion.
+2026-10-22 22:52:42,746 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-22 22:52:42,746 | INFO | __main__ | Starting vehicle collector.
+2026-10-22 22:52:43,641 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-22 22:52:43,641 | INFO | ingestion.realtime.vehicles | Vehicle API returned 16 records.
+2026-10-22 22:52:43,644 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-22_22-52-43.json
+2026-10-22 22:52:43,644 | INFO | ingestion.realtime.vehicles | Publishing 16 vehicle records to Kafka.
+2026-10-22 22:52:43,644 | INFO | streaming.producer | Sending vehicle R-548C5B1A to Kafka.
+2026-10-22 22:52:43,644 | INFO | streaming.producer | Sending vehicle R-548C5979 to Kafka.
+2026-10-22 22:52:43,644 | INFO | streaming.producer | Sending vehicle R-548C58CF to Kafka.
+2026-10-22 22:52:43,644 | INFO | streaming.producer | Sending vehicle R-548C5861 to Kafka.
+2026-10-22 22:52:43,644 | INFO | streaming.producer | Sending vehicle R-548C5763 to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C574E to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C574A to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C572D to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C572B to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C54B8 to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C5214 to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C5049 to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C4E4C to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C4CCC to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C4798 to Kafka.
+2026-10-22 22:52:43,645 | INFO | streaming.producer | Sending vehicle R-548C223D to Kafka.
+2026-10-22 22:52:43,646 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-22 22:52:53,745 | WARNING | streaming.producer | 16 Kafka message(s) were not delivered before timeout.
+2026-10-22 22:52:53,746 | INFO | __main__ | Starting prediction collector.
+2026-10-22 22:52:54,517 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-22 22:52:54,517 | INFO | ingestion.realtime.predictions | Prediction API returned 330 records.
+2026-10-22 22:52:54,537 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-22_22-52-54.json
+2026-10-22 22:52:54,538 | INFO | __main__ | Starting alert collector.
+2026-10-22 22:52:55,301 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-22 22:52:55,301 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
+2026-10-22 22:52:55,303 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-22_22-52-55.json
+2026-10-22 22:52:55,304 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-22 22:54:57,623 | INFO | __main__ | Kafka consumer stopped by user.
+2026-10-22 22:54:57,623 | INFO | __main__ | Closing Kafka consumer.
+2026-10-22 22:54:57,624 | INFO | __main__ | Closing PostgreSQL connection.
+2026-10-22 23:02:10,231 | INFO | __main__ | Subscribed to Kafka topic: mbta-vehicles
+2026-10-22 23:02:10,303 | INFO | __main__ | Connected to PostgreSQL for Kafka vehicle ingestion.
+2026-10-22 23:03:38,373 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-22 23:03:38,373 | INFO | __main__ | Starting vehicle collector.
+2026-10-22 23:03:39,265 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-22 23:03:39,265 | INFO | ingestion.realtime.vehicles | Vehicle API returned 15 records.
+2026-10-22 23:03:39,269 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-22_23-03-39.json
+2026-10-22 23:03:39,269 | INFO | ingestion.realtime.vehicles | Publishing 15 vehicle records to Kafka.
+2026-10-22 23:03:39,269 | INFO | streaming.producer | Sending vehicle R-548C5B1A to Kafka.
+2026-10-22 23:03:39,269 | INFO | streaming.producer | Sending vehicle R-548C5979 to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C58CF to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C5861 to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C5763 to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C574E to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C574A to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C572D to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C54B8 to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C5214 to Kafka.
+2026-10-22 23:03:39,270 | INFO | streaming.producer | Sending vehicle R-548C5049 to Kafka.
+2026-10-22 23:03:39,271 | INFO | streaming.producer | Sending vehicle R-548C4E4C to Kafka.
+2026-10-22 23:03:39,271 | INFO | streaming.producer | Sending vehicle R-548C4CCC to Kafka.
+2026-10-22 23:03:39,271 | INFO | streaming.producer | Sending vehicle R-548C4798 to Kafka.
+2026-10-22 23:03:39,271 | INFO | streaming.producer | Sending vehicle R-548C223D to Kafka.
+2026-10-22 23:03:39,271 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-22 23:03:39,297 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,297 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,298 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,299 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-22 23:03:39,299 | INFO | streaming.producer | Kafka producer flush completed successfully
+2026-10-22 23:03:39,299 | INFO | ingestion.realtime.vehicles | Published 15 vehicle records to Kafka successfully.
+2026-10-22 23:03:39,300 | INFO | __main__ | Starting prediction collector.
+2026-10-22 23:03:39,302 | INFO | __main__ | Received vehicle R-548C5B1A from Kafka.
+2026-10-22 23:03:39,317 | INFO | __main__ | Loaded vehicle R-548C5B1A into PostgreSQL.
+2026-10-22 23:03:39,327 | INFO | __main__ | Committed Kafka offset 66 for partition 0.
+2026-10-22 23:03:39,328 | INFO | __main__ | Received vehicle R-548C5979 from Kafka.
+2026-10-22 23:03:39,329 | INFO | __main__ | Loaded vehicle R-548C5979 into PostgreSQL.
+2026-10-22 23:03:39,331 | INFO | __main__ | Committed Kafka offset 67 for partition 0.
+2026-10-22 23:03:39,332 | INFO | __main__ | Received vehicle R-548C58CF from Kafka.
+2026-10-22 23:03:39,333 | INFO | __main__ | Loaded vehicle R-548C58CF into PostgreSQL.
+2026-10-22 23:03:39,335 | INFO | __main__ | Committed Kafka offset 68 for partition 0.
+2026-10-22 23:03:39,336 | INFO | __main__ | Received vehicle R-548C5861 from Kafka.
+2026-10-22 23:03:39,337 | INFO | __main__ | Loaded vehicle R-548C5861 into PostgreSQL.
+2026-10-22 23:03:39,339 | INFO | __main__ | Committed Kafka offset 69 for partition 0.
+2026-10-22 23:03:39,339 | INFO | __main__ | Received vehicle R-548C5763 from Kafka.
+2026-10-22 23:03:39,340 | INFO | __main__ | Loaded vehicle R-548C5763 into PostgreSQL.
+2026-10-22 23:03:39,342 | INFO | __main__ | Committed Kafka offset 70 for partition 0.
+2026-10-22 23:03:39,342 | INFO | __main__ | Received vehicle R-548C574E from Kafka.
+2026-10-22 23:03:39,346 | INFO | __main__ | Loaded vehicle R-548C574E into PostgreSQL.
+2026-10-22 23:03:39,347 | INFO | __main__ | Committed Kafka offset 71 for partition 0.
+2026-10-22 23:03:39,347 | INFO | __main__ | Received vehicle R-548C574A from Kafka.
+2026-10-22 23:03:39,349 | INFO | __main__ | Loaded vehicle R-548C574A into PostgreSQL.
+2026-10-22 23:03:39,351 | INFO | __main__ | Committed Kafka offset 72 for partition 0.
+2026-10-22 23:03:39,351 | INFO | __main__ | Received vehicle R-548C572D from Kafka.
+2026-10-22 23:03:39,353 | INFO | __main__ | Loaded vehicle R-548C572D into PostgreSQL.
+2026-10-22 23:03:39,355 | INFO | __main__ | Committed Kafka offset 73 for partition 0.
+2026-10-22 23:03:39,355 | INFO | __main__ | Received vehicle R-548C54B8 from Kafka.
+2026-10-22 23:03:39,357 | INFO | __main__ | Loaded vehicle R-548C54B8 into PostgreSQL.
+2026-10-22 23:03:39,358 | INFO | __main__ | Committed Kafka offset 74 for partition 0.
+2026-10-22 23:03:39,358 | INFO | __main__ | Received vehicle R-548C5214 from Kafka.
+2026-10-22 23:03:39,360 | INFO | __main__ | Loaded vehicle R-548C5214 into PostgreSQL.
+2026-10-22 23:03:39,362 | INFO | __main__ | Committed Kafka offset 75 for partition 0.
+2026-10-22 23:03:39,362 | INFO | __main__ | Received vehicle R-548C5049 from Kafka.
+2026-10-22 23:03:39,364 | INFO | __main__ | Loaded vehicle R-548C5049 into PostgreSQL.
+2026-10-22 23:03:39,365 | INFO | __main__ | Committed Kafka offset 76 for partition 0.
+2026-10-22 23:03:39,365 | INFO | __main__ | Received vehicle R-548C4E4C from Kafka.
+2026-10-22 23:03:39,366 | INFO | __main__ | Loaded vehicle R-548C4E4C into PostgreSQL.
+2026-10-22 23:03:39,368 | INFO | __main__ | Committed Kafka offset 77 for partition 0.
+2026-10-22 23:03:39,369 | INFO | __main__ | Received vehicle R-548C4CCC from Kafka.
+2026-10-22 23:03:39,370 | INFO | __main__ | Loaded vehicle R-548C4CCC into PostgreSQL.
+2026-10-22 23:03:39,372 | INFO | __main__ | Committed Kafka offset 78 for partition 0.
+2026-10-22 23:03:39,372 | INFO | __main__ | Received vehicle R-548C4798 from Kafka.
+2026-10-22 23:03:39,374 | INFO | __main__ | Loaded vehicle R-548C4798 into PostgreSQL.
+2026-10-22 23:03:39,376 | INFO | __main__ | Committed Kafka offset 79 for partition 0.
+2026-10-22 23:03:39,376 | INFO | __main__ | Received vehicle R-548C223D from Kafka.
+2026-10-22 23:03:39,377 | INFO | __main__ | Loaded vehicle R-548C223D into PostgreSQL.
+2026-10-22 23:03:39,379 | INFO | __main__ | Committed Kafka offset 80 for partition 0.
+2026-10-22 23:03:40,172 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-22 23:03:40,172 | INFO | ingestion.realtime.predictions | Prediction API returned 264 records.
+2026-10-22 23:03:40,189 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-22_23-03-40.json
+2026-10-22 23:03:40,190 | INFO | __main__ | Starting alert collector.
+2026-10-22 23:03:40,966 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-22 23:03:40,966 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
+2026-10-22 23:03:40,968 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-22_23-03-40.json
+2026-10-22 23:03:40,970 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-23 00:54:19,131 | INFO | __main__ | Kafka consumer stopped by user.
+2026-10-23 00:54:19,131 | INFO | __main__ | Closing Kafka consumer.
+2026-10-23 00:54:19,132 | INFO | __main__ | Closing PostgreSQL connection.
+2026-10-28 09:20:19,272 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-28 09:20:19,273 | INFO | __main__ | Starting vehicle collector.
+2026-10-28 09:20:19,724 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-28 09:20:19,724 | INFO | ingestion.realtime.vehicles | Vehicle API returned 22 records.
+2026-10-28 09:20:19,726 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-28_09-20-19.json
+2026-10-28 09:20:19,727 | INFO | ingestion.realtime.vehicles | Publishing 22 vehicle records to Kafka.
+2026-10-28 09:20:19,727 | INFO | streaming.producer | Sending vehicle R-548C748A to Kafka.
+2026-10-28 09:20:19,728 | INFO | streaming.producer | Sending vehicle R-548C73D4 to Kafka.
+2026-10-28 09:20:19,728 | INFO | streaming.producer | Sending vehicle R-548C73BE to Kafka.
+2026-10-28 09:20:19,728 | INFO | streaming.producer | Sending vehicle R-548C73B6 to Kafka.
+2026-10-28 09:20:19,728 | INFO | streaming.producer | Sending vehicle R-548C73A2 to Kafka.
+2026-10-28 09:20:19,728 | INFO | streaming.producer | Sending vehicle R-548C73A1 to Kafka.
+2026-10-28 09:20:19,728 | INFO | streaming.producer | Sending vehicle R-548C7398 to Kafka.
+2026-10-28 09:20:19,728 | INFO | streaming.producer | Sending vehicle R-548C7395 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C7394 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C72A2 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C704B to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C6E28 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C6E27 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C6DB6 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C6D11 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C6CB2 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C6902 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C68E7 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C6899 to Kafka.
+2026-10-28 09:20:19,729 | INFO | streaming.producer | Sending vehicle R-548C685B to Kafka.
+2026-10-28 09:20:19,730 | INFO | streaming.producer | Sending vehicle R-548C4E4C to Kafka.
+2026-10-28 09:20:19,730 | INFO | streaming.producer | Sending vehicle R-548C223D to Kafka.
+2026-10-28 09:20:19,730 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-28 09:20:29,854 | WARNING | streaming.producer | 22 Kafka message(s) were not delivered before timeout.
+2026-10-28 09:20:29,855 | INFO | __main__ | Starting prediction collector.
+2026-10-28 09:20:30,199 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-28 09:20:30,199 | INFO | ingestion.realtime.predictions | Prediction API returned 300 records.
+2026-10-28 09:20:30,216 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-28_09-20-30.json
+2026-10-28 09:20:30,218 | INFO | __main__ | Starting alert collector.
+2026-10-28 09:20:30,580 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-28 09:20:30,580 | INFO | ingestion.realtime.alerts | Alert API returned 3 records.
+2026-10-28 09:20:30,583 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-28_09-20-30.json
+2026-10-28 09:20:30,585 | INFO | __main__ | ========== MBTA collection run finished ==========
+2026-10-31 20:44:35,609 | INFO | __main__ | ========== MBTA collection run started ==========
+2026-10-31 20:44:35,609 | INFO | __main__ | Starting vehicle collector.
+2026-10-31 20:44:36,044 | INFO | ingestion.realtime.vehicles | Vehicle API request successful.
+2026-10-31 20:44:36,045 | INFO | ingestion.realtime.vehicles | Vehicle API returned 16 records.
+2026-10-31 20:44:36,049 | INFO | ingestion.realtime.vehicles | Vehicle snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\vehicles\vehicles_2026-10-31_20-44-36.json
+2026-10-31 20:44:36,050 | INFO | ingestion.realtime.vehicles | Publishing 16 vehicle records to Kafka.
+2026-10-31 20:44:36,050 | INFO | streaming.producer | Sending vehicle R-548C858F to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,050 | INFO | streaming.producer | Sending vehicle R-548C8544 to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,050 | INFO | streaming.producer | Sending vehicle R-548C853A to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,051 | INFO | streaming.producer | Sending vehicle R-548C8529 to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,051 | INFO | streaming.producer | Sending vehicle R-548C8515 to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,051 | INFO | streaming.producer | Sending vehicle R-548C8504 to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,052 | INFO | streaming.producer | Sending vehicle R-548C84CB to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,052 | INFO | streaming.producer | Sending vehicle R-548C84A8 to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,052 | INFO | streaming.producer | Sending vehicle R-548C840D to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,052 | INFO | streaming.producer | Sending vehicle R-548C840C to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,053 | INFO | streaming.producer | Sending vehicle R-548C840A to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,053 | INFO | streaming.producer | Sending vehicle R-548C832D to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,053 | INFO | streaming.producer | Sending vehicle R-548C7D94 to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,054 | INFO | streaming.producer | Sending vehicle R-548C7997 to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,054 | INFO | streaming.producer | Sending vehicle R-548C7985 to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,054 | INFO | streaming.producer | Sending vehicle R-548C223D to Kafka topic mbta-vehicles.
+2026-10-31 20:44:36,054 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-31 20:44:36,094 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,094 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,094 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,095 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,095 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,095 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,095 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,095 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,095 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,096 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,096 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,096 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,096 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,096 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,096 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,096 | INFO | streaming.producer | Kafka message delivered to topic mbta-vehicles, partition 0.
+2026-10-31 20:44:36,096 | INFO | streaming.producer | Kafka producer flush completed successfully.
+2026-10-31 20:44:36,096 | INFO | ingestion.realtime.vehicles | Published 16 vehicle records to Kafka successfully.
+2026-10-31 20:44:36,097 | INFO | __main__ | Starting prediction collector.
+2026-10-31 20:44:36,486 | INFO | ingestion.realtime.predictions | Prediction API request successful.
+2026-10-31 20:44:36,486 | INFO | ingestion.realtime.predictions | Prediction API returned 342 records.
+2026-10-31 20:44:36,506 | INFO | ingestion.realtime.predictions | Prediction snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\predictions\predictions_2026-10-31_20-44-36.json
+2026-10-31 20:44:36,506 | INFO | ingestion.realtime.predictions | Publishing 342 prediction records to Kafka.
+2026-10-31 20:44:36,506 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,507 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70094-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,507 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,507 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,507 | INFO | streaming.producer | Sending prediction prediction-77909995-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,508 | INFO | streaming.producer | Sending prediction prediction-77909994-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,508 | INFO | streaming.producer | Sending prediction prediction-77909993-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,508 | INFO | streaming.producer | Sending prediction prediction-77909992-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,508 | INFO | streaming.producer | Sending prediction prediction-77909991-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,509 | INFO | streaming.producer | Sending prediction prediction-77909794-70094-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,509 | INFO | streaming.producer | Sending prediction prediction-77909689-70094-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,509 | INFO | streaming.producer | Sending prediction prediction-77909685-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,509 | INFO | streaming.producer | Sending prediction prediction-77909657-70061-1-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,509 | INFO | streaming.producer | Sending prediction prediction-77909657-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,509 | INFO | streaming.producer | Sending prediction prediction-77909657-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,509 | INFO | streaming.producer | Sending prediction prediction-77909657-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,509 | INFO | streaming.producer | Sending prediction prediction-77909657-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,510 | INFO | streaming.producer | Sending prediction prediction-77909657-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,510 | INFO | streaming.producer | Sending prediction prediction-77909657-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,510 | INFO | streaming.producer | Sending prediction prediction-77909657-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,511 | INFO | streaming.producer | Sending prediction prediction-77909657-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,511 | INFO | streaming.producer | Sending prediction prediction-77909657-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,511 | INFO | streaming.producer | Sending prediction prediction-77909657-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,511 | INFO | streaming.producer | Sending prediction prediction-77909657-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,511 | INFO | streaming.producer | Sending prediction prediction-77909657-70085-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,512 | INFO | streaming.producer | Sending prediction prediction-77909657-70087-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,512 | INFO | streaming.producer | Sending prediction prediction-77909657-70089-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,512 | INFO | streaming.producer | Sending prediction prediction-77909657-70091-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,512 | INFO | streaming.producer | Sending prediction prediction-77909657-70093-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,512 | INFO | streaming.producer | Sending prediction prediction-77909899-70074-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,512 | INFO | streaming.producer | Sending prediction prediction-77909989-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,513 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032121-70076-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,513 | INFO | streaming.producer | Sending prediction prediction-77909819-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,513 | INFO | streaming.producer | Sending prediction prediction-77909898-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,513 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032140-70093-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,513 | INFO | streaming.producer | Sending prediction prediction-77909900-70096-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,513 | INFO | streaming.producer | Sending prediction prediction-77909899-70072-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,515 | INFO | streaming.producer | Sending prediction prediction-77909990-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,515 | INFO | streaming.producer | Sending prediction prediction-77909793-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,515 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032102-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,515 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,515 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,515 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,516 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,516 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,516 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,516 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,516 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,516 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,516 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,516 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,517 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,518 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,518 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,518 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,518 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,518 | INFO | streaming.producer | Sending prediction prediction-77909989-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,518 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70084-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,518 | INFO | streaming.producer | Sending prediction prediction-77909901-70100-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,518 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032121-70074-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,519 | INFO | streaming.producer | Sending prediction prediction-77909819-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,519 | INFO | streaming.producer | Sending prediction prediction-77909989-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,519 | INFO | streaming.producer | Sending prediction prediction-77909898-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,519 | INFO | streaming.producer | Sending prediction prediction-77909899-70070-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,519 | INFO | streaming.producer | Sending prediction prediction-77909793-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,519 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70082-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,519 | INFO | streaming.producer | Sending prediction prediction-77909901-70098-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,520 | INFO | streaming.producer | Sending prediction prediction-77909990-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,520 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032121-70072-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,520 | INFO | streaming.producer | Sending prediction prediction-77909900-70084-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,521 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,521 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,521 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,521 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,521 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,521 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,521 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,522 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,522 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,522 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,522 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,522 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,522 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,522 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,523 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,523 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,523 | INFO | streaming.producer | Sending prediction prediction-77909987-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,523 | INFO | streaming.producer | Sending prediction prediction-77909819-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,523 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032102-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,524 | INFO | streaming.producer | Sending prediction prediction-77909989-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,524 | INFO | streaming.producer | Sending prediction prediction-77909988-70097-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,524 | INFO | streaming.producer | Sending prediction prediction-77909793-70085-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,524 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70080-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,524 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70092-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,524 | INFO | streaming.producer | Sending prediction prediction-77909900-70082-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,525 | INFO | streaming.producer | Sending prediction prediction-77909819-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,525 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032121-70070-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,525 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032102-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,525 | INFO | streaming.producer | Sending prediction prediction-77909989-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,525 | INFO | streaming.producer | Sending prediction prediction-77909899-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,525 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70078-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,526 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,526 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,526 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,526 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,526 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,526 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,526 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,526 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70090-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,527 | INFO | streaming.producer | Sending prediction prediction-77909988-70099-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,528 | INFO | streaming.producer | Sending prediction prediction-77909990-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,528 | INFO | streaming.producer | Sending prediction prediction-77909819-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,528 | INFO | streaming.producer | Sending prediction prediction-77909793-70087-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,528 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70076-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,528 | INFO | streaming.producer | Sending prediction prediction-77909900-70080-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,528 | INFO | streaming.producer | Sending prediction prediction-77909991-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,528 | INFO | streaming.producer | Sending prediction prediction-77909989-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,529 | INFO | streaming.producer | Sending prediction prediction-77909819-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,529 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032102-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,529 | INFO | streaming.producer | Sending prediction prediction-77909990-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,529 | INFO | streaming.producer | Sending prediction prediction-77909900-70078-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,529 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032121-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,529 | INFO | streaming.producer | Sending prediction prediction-77909899-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,529 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70088-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,529 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70074-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,530 | INFO | streaming.producer | Sending prediction prediction-77909988-70101-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,530 | INFO | streaming.producer | Sending prediction prediction-77909991-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,531 | INFO | streaming.producer | Sending prediction prediction-77909900-70076-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,531 | INFO | streaming.producer | Sending prediction prediction-77909793-70089-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,531 | INFO | streaming.producer | Sending prediction prediction-77909901-70096-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,531 | INFO | streaming.producer | Sending prediction prediction-77909989-70095-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,531 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,531 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,532 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,532 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,532 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,532 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,532 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,532 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,532 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,532 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,533 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,533 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,533 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,533 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,533 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,533 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,533 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,533 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Sending prediction prediction-77909819-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Sending prediction prediction-77909990-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Sending prediction prediction-77909899-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70086-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,534 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70072-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,535 | INFO | streaming.producer | Sending prediction prediction-77909793-70091-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,535 | INFO | streaming.producer | Sending prediction prediction-77909900-70074-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,535 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032121-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,535 | INFO | streaming.producer | Sending prediction prediction-77909991-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,535 | INFO | streaming.producer | Sending prediction prediction-77909988-70103-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,535 | INFO | streaming.producer | Sending prediction prediction-77909819-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,536 | INFO | streaming.producer | Sending prediction prediction-77909990-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,536 | INFO | streaming.producer | Sending prediction prediction-77909901-70084-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,536 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70070-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,536 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,536 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,536 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,536 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,537 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,538 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,538 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,538 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70084-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,538 | INFO | streaming.producer | Sending prediction prediction-77909900-70072-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,538 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032121-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,538 | INFO | streaming.producer | Sending prediction prediction-77909685-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,538 | INFO | streaming.producer | Sending prediction prediction-77909899-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,538 | INFO | streaming.producer | Sending prediction prediction-77909990-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909819-70085-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909901-70082-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909991-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70082-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909685-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909990-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909900-70070-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909989-70097-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909988-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909793-70093-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-77909819-70087-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,539 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032121-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,540 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,540 | INFO | streaming.producer | Sending prediction prediction-77909901-70080-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,540 | INFO | streaming.producer | Sending prediction prediction-77909991-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,540 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70080-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,541 | INFO | streaming.producer | Sending prediction prediction-77909990-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,541 | INFO | streaming.producer | Sending prediction prediction-77909685-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,541 | INFO | streaming.producer | Sending prediction prediction-77909989-70099-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,541 | INFO | streaming.producer | Sending prediction prediction-77909901-70078-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,541 | INFO | streaming.producer | Sending prediction prediction-77909992-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,541 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,542 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,543 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,544 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,544 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,544 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,544 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,544 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70078-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,544 | INFO | streaming.producer | Sending prediction prediction-77909901-70076-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,544 | INFO | streaming.producer | Sending prediction prediction-77909900-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,545 | INFO | streaming.producer | Sending prediction prediction-77909991-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,545 | INFO | streaming.producer | Sending prediction prediction-77909819-70089-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,545 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,545 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70076-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,545 | INFO | streaming.producer | Sending prediction prediction-77909990-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,546 | INFO | streaming.producer | Sending prediction prediction-77909992-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,546 | INFO | streaming.producer | Sending prediction prediction-77909989-70101-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,546 | INFO | streaming.producer | Sending prediction prediction-77909991-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,546 | INFO | streaming.producer | Sending prediction prediction-77909819-70091-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,546 | INFO | streaming.producer | Sending prediction prediction-77909685-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,547 | INFO | streaming.producer | Sending prediction prediction-77909901-70074-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,547 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,547 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70074-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,547 | INFO | streaming.producer | Sending prediction prediction-77909990-70095-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,547 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,547 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,548 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Sending prediction prediction-77909900-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Sending prediction prediction-77909794-70092-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,549 | INFO | streaming.producer | Sending prediction prediction-77909991-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,550 | INFO | streaming.producer | Sending prediction prediction-77909992-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,550 | INFO | streaming.producer | Sending prediction prediction-77909901-70072-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,550 | INFO | streaming.producer | Sending prediction prediction-77909685-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,550 | INFO | streaming.producer | Sending prediction prediction-77909794-70090-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,551 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,551 | INFO | streaming.producer | Sending prediction prediction-77909989-70103-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,551 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70072-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,552 | INFO | streaming.producer | Sending prediction prediction-77909900-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,552 | INFO | streaming.producer | Sending prediction prediction-77909991-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,552 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032123-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,553 | INFO | streaming.producer | Sending prediction prediction-77909685-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,553 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,553 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,553 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,553 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,554 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,555 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,555 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,555 | INFO | streaming.producer | Sending prediction prediction-77909901-70070-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,556 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70070-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,556 | INFO | streaming.producer | Sending prediction prediction-77909794-70088-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,556 | INFO | streaming.producer | Sending prediction prediction-77909819-70093-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,556 | INFO | streaming.producer | Sending prediction prediction-77909991-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,556 | INFO | streaming.producer | Sending prediction prediction-77909992-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,556 | INFO | streaming.producer | Sending prediction prediction-77909900-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,557 | INFO | streaming.producer | Sending prediction prediction-77909685-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,557 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,557 | INFO | streaming.producer | Sending prediction prediction-77909990-70097-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,557 | INFO | streaming.producer | Sending prediction prediction-77909989-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,558 | INFO | streaming.producer | Sending prediction prediction-77909794-70086-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,558 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,558 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,558 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,558 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,558 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,558 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,559 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,559 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,559 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,559 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,559 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,559 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,559 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,560 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,560 | INFO | streaming.producer | Sending prediction prediction-77909991-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,560 | INFO | streaming.producer | Sending prediction prediction-77909992-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,560 | INFO | streaming.producer | Sending prediction prediction-77909685-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,560 | INFO | streaming.producer | Sending prediction prediction-77909901-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,561 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,561 | INFO | streaming.producer | Sending prediction prediction-77909990-70099-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,561 | INFO | streaming.producer | Sending prediction prediction-77909685-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,561 | INFO | streaming.producer | Sending prediction prediction-77909991-70095-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,561 | INFO | streaming.producer | Sending prediction prediction-77909992-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,561 | INFO | streaming.producer | Sending prediction prediction-77909794-70084-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,562 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,562 | INFO | streaming.producer | Sending prediction prediction-77909901-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,562 | INFO | streaming.producer | Sending prediction prediction-77909689-70092-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,562 | INFO | streaming.producer | Sending prediction prediction-77909993-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,563 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,563 | INFO | streaming.producer | Sending prediction prediction-77909685-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,563 | INFO | streaming.producer | Sending prediction prediction-77909794-70082-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,563 | INFO | streaming.producer | Sending prediction prediction-77909992-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,563 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,563 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,564 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,564 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,564 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,564 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,564 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,564 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,564 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,565 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,565 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,565 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,565 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,565 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,565 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,565 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,566 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,566 | INFO | streaming.producer | Sending prediction prediction-77909990-70101-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,566 | INFO | streaming.producer | Sending prediction prediction-77909689-70090-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,566 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,566 | INFO | streaming.producer | Sending prediction prediction-77909901-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,567 | INFO | streaming.producer | Sending prediction prediction-77909993-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,567 | INFO | streaming.producer | Sending prediction prediction-77909992-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,567 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,567 | INFO | streaming.producer | Sending prediction prediction-77909685-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,567 | INFO | streaming.producer | Sending prediction prediction-77909794-70080-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,568 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,568 | INFO | streaming.producer | Sending prediction prediction-77909990-70103-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,568 | INFO | streaming.producer | Sending prediction prediction-77909992-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,568 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,568 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,568 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,569 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,569 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,569 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,569 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,569 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,569 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,569 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,569 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,570 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,570 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,570 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,570 | INFO | streaming.producer | Sending prediction prediction-77909689-70088-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,570 | INFO | streaming.producer | Sending prediction prediction-77909993-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,570 | INFO | streaming.producer | Sending prediction prediction-77909794-70078-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,570 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,570 | INFO | streaming.producer | Sending prediction prediction-77909991-70097-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,571 | INFO | streaming.producer | Sending prediction prediction-77909685-70085-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,571 | INFO | streaming.producer | Sending prediction prediction-77909794-70076-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,571 | INFO | streaming.producer | Sending prediction prediction-77909901-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,571 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032136-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,571 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,571 | INFO | streaming.producer | Sending prediction prediction-77909992-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,571 | INFO | streaming.producer | Sending prediction prediction-77909689-70086-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,572 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,572 | INFO | streaming.producer | Sending prediction prediction-77909685-70087-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,572 | INFO | streaming.producer | Sending prediction prediction-77909991-70099-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,572 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,572 | INFO | streaming.producer | Sending prediction prediction-77909794-70074-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,572 | INFO | streaming.producer | Sending prediction prediction-77909993-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,573 | INFO | streaming.producer | Sending prediction prediction-77909992-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,573 | INFO | streaming.producer | Sending prediction prediction-77909990-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,573 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,573 | INFO | streaming.producer | Sending prediction prediction-77909689-70084-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,574 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,574 | INFO | streaming.producer | Sending prediction prediction-77909794-70072-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,574 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,574 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,574 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,574 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,575 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,576 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,576 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,576 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,576 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,576 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,576 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,576 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,576 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,577 | INFO | streaming.producer | Sending prediction prediction-77909991-70101-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,577 | INFO | streaming.producer | Sending prediction prediction-77909685-70089-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,577 | INFO | streaming.producer | Sending prediction prediction-77909993-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,577 | INFO | streaming.producer | Sending prediction prediction-77909992-70095-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,577 | INFO | streaming.producer | Sending prediction prediction-77909689-70082-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,577 | INFO | streaming.producer | Sending prediction prediction-77909994-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,578 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,578 | INFO | streaming.producer | Sending prediction prediction-77909685-70091-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,578 | INFO | streaming.producer | Sending prediction prediction-77909794-70070-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,578 | INFO | streaming.producer | Sending prediction prediction-77909993-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,578 | INFO | streaming.producer | Sending prediction prediction-77909991-70103-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,578 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,579 | INFO | streaming.producer | Sending prediction prediction-77909994-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,579 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,579 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,579 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,579 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,579 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,580 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,581 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,581 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,581 | INFO | streaming.producer | Sending prediction prediction-77909689-70080-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,581 | INFO | streaming.producer | Sending prediction prediction-77909993-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,581 | INFO | streaming.producer | Sending prediction prediction-77909689-70078-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,581 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,582 | INFO | streaming.producer | Sending prediction prediction-77909689-70076-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,582 | INFO | streaming.producer | Sending prediction prediction-77909794-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,582 | INFO | streaming.producer | Sending prediction prediction-77909994-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,582 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70085-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,582 | INFO | streaming.producer | Sending prediction prediction-77909993-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,582 | INFO | streaming.producer | Sending prediction prediction-77909992-70097-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,582 | INFO | streaming.producer | Sending prediction prediction-77909685-70093-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,583 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,583 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,583 | INFO | streaming.producer | Sending prediction prediction-77909991-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,583 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70087-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,583 | INFO | streaming.producer | Sending prediction prediction-77909993-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,583 | INFO | streaming.producer | Sending prediction prediction-77909689-70074-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,584 | INFO | streaming.producer | Sending prediction prediction-77909794-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,584 | INFO | streaming.producer | Sending prediction prediction-77909992-70099-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,584 | INFO | streaming.producer | Sending prediction prediction-77909994-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,584 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,584 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,584 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,584 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,584 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,585 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,585 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,585 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,585 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,585 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,585 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,585 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,586 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,586 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,586 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,589 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,590 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,590 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,590 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,590 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,590 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,591 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,591 | INFO | streaming.producer | Sending prediction prediction-77909689-70072-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,591 | INFO | streaming.producer | Sending prediction prediction-77909993-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,591 | INFO | streaming.producer | Sending prediction prediction-77909794-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,591 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70089-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,591 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,591 | INFO | streaming.producer | Sending prediction prediction-77909994-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,592 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,592 | INFO | streaming.producer | Sending prediction prediction-77909992-70101-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,592 | INFO | streaming.producer | Sending prediction prediction-77909993-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,592 | INFO | streaming.producer | Sending prediction prediction-77909689-70070-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,593 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,593 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70091-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,593 | INFO | streaming.producer | Sending prediction prediction-77909994-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,594 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,594 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,594 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,594 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,594 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,594 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,594 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,595 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,595 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,595 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,595 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,595 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,595 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,595 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,596 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,596 | INFO | streaming.producer | Sending prediction prediction-77909995-70063-10-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,596 | INFO | streaming.producer | Sending prediction prediction-77909794-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,596 | INFO | streaming.producer | Sending prediction prediction-77909993-70095-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,596 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,597 | INFO | streaming.producer | Sending prediction prediction-77909992-70103-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,597 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,597 | INFO | streaming.producer | Sending prediction prediction-77909994-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,597 | INFO | streaming.producer | Sending prediction prediction-77909995-70065-20-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,597 | INFO | streaming.producer | Sending prediction prediction-77909689-70068-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,597 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,598 | INFO | streaming.producer | Sending prediction prediction-77909994-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,598 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032122-70093-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,598 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,598 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,598 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,598 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,598 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,599 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,600 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,600 | INFO | streaming.producer | Sending prediction prediction-77909995-70067-30-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,600 | INFO | streaming.producer | Sending prediction prediction-77909994-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,600 | INFO | streaming.producer | Sending prediction prediction-77909689-70066-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,600 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70085-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,600 | INFO | streaming.producer | Sending prediction prediction-77909992-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,600 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,601 | INFO | streaming.producer | Sending prediction prediction-77909993-70097-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,601 | INFO | streaming.producer | Sending prediction prediction-77909689-70064-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,601 | INFO | streaming.producer | Sending prediction prediction-77909994-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,601 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70087-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,601 | INFO | streaming.producer | Sending prediction prediction-77909995-70069-40-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,601 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,601 | INFO | streaming.producer | Sending prediction prediction-77909993-70099-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,602 | INFO | streaming.producer | Sending prediction prediction-77909994-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,602 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,602 | INFO | streaming.producer | Sending prediction prediction-77909689-70061-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,602 | INFO | streaming.producer | Sending prediction prediction-77909995-70071-50-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,602 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70089-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,603 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,603 | INFO | streaming.producer | Sending prediction prediction-77909994-70095-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,603 | INFO | streaming.producer | Sending prediction prediction-77909993-70101-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,603 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70091-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,603 | INFO | streaming.producer | Sending prediction prediction-77909995-70073-60-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,603 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Sending prediction prediction-77909995-70075-70-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,604 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,605 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,606 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,606 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,606 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,606 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,606 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,606 | INFO | streaming.producer | Sending prediction prediction-77909993-70103-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,606 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,606 | INFO | streaming.producer | Sending prediction prediction-77909995-70077-80-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,607 | INFO | streaming.producer | Sending prediction prediction-77909995-70079-90-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,607 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032124-70093-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,607 | INFO | streaming.producer | Sending prediction prediction-77909994-70097-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,607 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70085-130-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,607 | INFO | streaming.producer | Sending prediction prediction-77909993-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,608 | INFO | streaming.producer | Sending prediction prediction-77909995-70081-100-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,608 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70087-140-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,608 | INFO | streaming.producer | Sending prediction prediction-77909994-70099-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,608 | INFO | streaming.producer | Sending prediction prediction-77909995-70083-110-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,608 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70089-150-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,609 | INFO | streaming.producer | Sending prediction prediction-77909994-70101-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,609 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,609 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,609 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,609 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,609 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,609 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,609 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,610 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,611 | INFO | streaming.producer | Sending prediction prediction-77909995-70095-120-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,611 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70091-160-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,611 | INFO | streaming.producer | Sending prediction prediction-77909994-70103-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,611 | INFO | streaming.producer | Sending prediction prediction-ADDED-1585032137-70093-170-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,611 | INFO | streaming.producer | Sending prediction prediction-77909995-70097-180-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,611 | INFO | streaming.producer | Sending prediction prediction-77909994-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,611 | INFO | streaming.producer | Sending prediction prediction-77909995-70099-190-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,612 | INFO | streaming.producer | Sending prediction prediction-77909995-70101-200-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,612 | INFO | streaming.producer | Sending prediction prediction-77909995-70103-210-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,612 | INFO | streaming.producer | Sending prediction prediction-77909995-70105-220-Red to Kafka topic mbta-predictions.
+2026-10-31 20:44:36,612 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-31 20:44:36,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,614 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,615 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,616 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,616 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,616 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,616 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,616 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,616 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,616 | INFO | streaming.producer | Kafka message delivered to topic mbta-predictions, partition 0.
+2026-10-31 20:44:36,617 | INFO | streaming.producer | Kafka producer flush completed successfully.
+2026-10-31 20:44:36,617 | INFO | ingestion.realtime.predictions | Published 342 prediction records to Kafka successfully.
+2026-10-31 20:44:36,618 | INFO | __main__ | Starting alert collector.
+2026-10-31 20:44:36,965 | INFO | ingestion.realtime.alerts | Alert API request successful.
+2026-10-31 20:44:36,965 | INFO | ingestion.realtime.alerts | Alert API returned 5 records.
+2026-10-31 20:44:36,967 | INFO | ingestion.realtime.alerts | Alert snapshot saved: C:\Users\kahnm\PycharmProjects\cis260-capstone-transit-analytics-platform\data\raw\alerts\alerts_2026-10-31_20-44-36.json
+2026-10-31 20:44:36,967 | INFO | ingestion.realtime.alerts | Publishing 5 alert records to Kafka.
+2026-10-31 20:44:36,968 | INFO | streaming.producer | Sending alert 1037418 to Kafka topic mbta-alerts.
+2026-10-31 20:44:36,968 | INFO | streaming.producer | Sending alert 1042451 to Kafka topic mbta-alerts.
+2026-10-31 20:44:36,968 | INFO | streaming.producer | Sending alert 1042538 to Kafka topic mbta-alerts.
+2026-10-31 20:44:36,968 | INFO | streaming.producer | Sending alert 1039759 to Kafka topic mbta-alerts.
+2026-10-31 20:44:36,968 | INFO | streaming.producer | Sending alert 1032947 to Kafka topic mbta-alerts.
+2026-10-31 20:44:36,968 | INFO | streaming.producer | Flushing remaining Kafka messages.
+2026-10-31 20:44:36,970 | INFO | streaming.producer | Kafka message delivered to topic mbta-alerts, partition 0.
+2026-10-31 20:44:36,970 | INFO | streaming.producer | Kafka message delivered to topic mbta-alerts, partition 0.
+2026-10-31 20:44:36,971 | INFO | streaming.producer | Kafka message delivered to topic mbta-alerts, partition 0.
+2026-10-31 20:44:36,971 | INFO | streaming.producer | Kafka message delivered to topic mbta-alerts, partition 0.
+2026-10-31 20:44:36,971 | INFO | streaming.producer | Kafka message delivered to topic mbta-alerts, partition 0.
+2026-10-31 20:44:36,971 | INFO | streaming.producer | Kafka producer flush completed successfully.
+2026-10-31 20:44:36,971 | INFO | ingestion.realtime.alerts | Published 5 alert records to Kafka successfully.
+2026-10-31 20:44:36,972 | INFO | __main__ | ========== MBTA collection run finished ==========
